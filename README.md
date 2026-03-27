@@ -10,7 +10,7 @@ StellarDEX orderbook, XLM staking, anchor verification, Soroban smart contracts,
 
 ## 7 Tools
 
-All tools return structured JSON with evidence-grade data. Free to use, no API key required for basic access.
+All tools return structured JSON with evidence-grade data.
 
 ## Quick Start
 
