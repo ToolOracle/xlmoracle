@@ -1,64 +1,34 @@
-# ✦ xlmOracle
+# XLMOracle MCP Server
 
-**Stellar Network Intelligence MCP Server** — 7 tools | Part of [ToolOracle](https://tooloracle.io)
+**Stellar intelligence for AI agents.**
 
-![Tools](https://img.shields.io/badge/MCP_Tools-7-10B898?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
-![Chain](https://img.shields.io/badge/Chain-Stellar-3E1BDB?style=flat-square)
-![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
+Port 11301 | Part of [ToolOracle](https://tooloracle.io) Blockchain Oracle Suite
 
-Payment corridor analysis, tokenized asset checks, issuer trust, anchor SEP compliance, DEX liquidity, stablecoin monitoring, RWA on Stellar. Evidence-grade data for institutional cross-border payments and tokenized finance.
+## What it does
 
-## Quick Connect
+StellarDEX orderbook, XLM staking, anchor verification, Soroban smart contracts, network stats, asset compliance.
+
+## 7 Tools
+
+All tools return structured JSON with evidence-grade data. Free to use, no API key required for basic access.
+
+## Quick Start
 
 ```bash
-npx -y mcp-remote https://feedoracle.io/mcp/xlmoracle/
+claude mcp add --transport http xlm https://tooloracle.io/xlm/mcp/
 ```
 
-```json
-{
-  "mcpServers": {
-    "xlmoracle": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://feedoracle.io/mcp/xlmoracle/"]
-    }
-  }
-}
-```
+## Endpoints
 
-## Tools (7)
+- MCP: `https://tooloracle.io/xlm/mcp/`
+- Health: `https://tooloracle.io/xlm/health`
 
-| Tool | Description |
-|------|-------------|
-| `xlm_overview` | Stellar network overview: XLM price, ledger stats, throughput, fees |
-| `xlm_account_intel` | Account intelligence: XLM balance, trust lines, authorized accounts, flags |
-| `xlm_asset_check` | Asset analysis: issuer trust, 2M+ authorized accounts, trading volume |
-| `xlm_payment_corridor` | Cross-border payment corridor: path payments, routing, settlement speed |
-| `xlm_anchor_check` | Anchor intelligence: SEP-24/31/38 compliance, KYC/AML, fiat on/off ramps |
-| `xlm_dex_liquidity` | Stellar AMM pool intelligence: reserves, trading pairs, liquidity |
-| `xlm_rwa_assets` | RWA on Stellar: Franklin Templeton BENJI, tokenized bonds, treasuries |
+## Part of the ToolOracle Blockchain Suite
 
-## Use Cases
+13 dedicated blockchain MCP servers: Bitcoin, Ethereum, Arbitrum, Solana, TON, Sui, BNB, Base, XRPL, XLM, Aptos, Hedera, Flare.
 
-- **Payment intelligence**: Cross-border corridor analysis, ODL routing, settlement
-- **Anchor compliance**: SEP protocol verification for regulated fiat gateways
-- **Asset risk**: Issuer trust scoring, authorized account concentration
-- **RWA monitoring**: Tokenized money market funds and bonds on Stellar
+[tooloracle.io](https://tooloracle.io)
 
-## Part of FeedOracle / ToolOracle
+## License
 
-**Blockchain Oracle Suite:**
-- [ethOracle](https://github.com/tooloracle/ethoracle) — Ethereum
-- [xlmOracle](https://github.com/tooloracle/xlmoracle) — Stellar (this repo)
-- [xrplOracle](https://github.com/tooloracle/xrploracle) — XRP Ledger
-- [bnbOracle](https://github.com/tooloracle/bnboracle) — BNB Chain
-- [aptOracle](https://github.com/tooloracle/aptoracle) — Aptos
-- [baseOracle](https://github.com/tooloracle/baseoracle) — Base L2
-
-## Links
-
-- 🌐 Live: `https://feedoracle.io/mcp/xlmoracle/`
-- 🏠 Platform: [feedoracle.io](https://feedoracle.io)
-
----
-*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
+MIT
