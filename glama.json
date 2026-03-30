@@ -1,0 +1,11 @@
+{
+  "name": "XLMOracle",
+  "description": "Stellar intelligence for AI agents — accounts, assets, operations, trade aggregation via MCP",
+  "repository": "https://github.com/ToolOracle/xlmoracle",
+  "endpoint": "https://tooloracle.io/xlm/mcp/",
+  "health": "https://tooloracle.io/xlm/health",
+  "tools": 7,
+  "license": "MIT",
+  "author": "FeedOracle Technologies",
+  "tags": ["stellar", "mcp", "ai-agent", "tooloracle"]
+}
