@@ -1,0 +1,5 @@
+name: XLMOracle
+description: Stellar network intelligence — 9 tools
+endpoint: https://tooloracle.io/xlm/mcp/
+transport: streamable-http
+license: MIT
